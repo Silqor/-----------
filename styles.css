@@ -1,4 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: 12px Verdana;
+    color: #333333;
+    background: #F7F6F6 url(images/background.gif) repeat-x 0 0;
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both;
+}
+
 /** BEGIN wrapper **/
+
 #wrapper {
 	width: 980px;
 	margin: auto auto;
@@ -27,6 +46,7 @@
 			padding: 12px 15px;
 			text-decoration: none;
 		}
+
 		#header .pages li a:hover {
 			text-decoration: underline;
 		}
